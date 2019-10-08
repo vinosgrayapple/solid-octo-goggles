@@ -1,6 +1,10 @@
 import React from 'react';
 import styled from 'styled-components'
 import './style.css'
+import {
+  FontAwesomeIcon
+} from '@fortawesome/react-fontawesome'
+
 
 function Footer() {
   const FooterComponent = styled.footer`
@@ -47,7 +51,11 @@ padding: 80px 15px;
   return (
     <FooterComponent>
       <ul>
-        <li><a href="https://twitter.com/s_komarychev" target="_blank" rel="noopener noreferrer"><i className="fa fa-twitter-square" /></a></li>
+        <li>
+          <a href="https://twitter.com/s_komarychev" target="_blank" rel="noopener noreferrer">
+            <i className="fa fa-twitter-square" />
+          </a>
+        </li>
         <li><a href="https://www.facebook.com/skomarychev" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook-square" /></a></li>
         <li><a href="https://github.com/vinosgrayapple" target="_blank" rel="noopener noreferrer"><i className="fa fa-github-square" /></a></li>
       </ul>

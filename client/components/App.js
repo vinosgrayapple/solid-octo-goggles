@@ -2,6 +2,16 @@ import React from 'react';
 import styled from 'styled-components'
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
+import {
+  library
+} from '@fortawesome/fontawesome-svg-core'
+import {
+  fab
+} from '@fortawesome/free-brands-svg-icons'
+import {
+  faCheckSquare,
+  faCoffee
+} from '@fortawesome/free-solid-svg-icons'
 import Head from './head';
 import Header from './Header';
 import Hero from './Hero';
@@ -11,7 +21,7 @@ import Reviews from './Reviews'
 import Contacts from './Contacts'
 import Footer from './Footer'
 
-
+library.add(fab, faCheckSquare, faCoffee);
 function App() {
   const BodyComponent = styled.div`
   *{
