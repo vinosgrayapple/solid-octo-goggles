@@ -49,8 +49,6 @@ padding: 80px 15px;
       <ul>
         <li><a href="https://twitter.com/s_komarychev"><i className="fa fa-twitter-square" /></a></li>
         <li><a href="https://www.facebook.com/vinosgray"><i className="fa fa-facebook-square" /></a></li>
-        /* <li><a href="#"><i className="fa fa-snapchat-square" /></a></li>
-        <li><a href="#"><i className="fa fa-pinterest-square" /></a></li> */
         <li><a href="https://github.com/vinosgrayapple"><i className="fa fa-github-square" /></a></li>
       </ul>
       <p>Made by <a href="http://tutorialzine.com/" target="_blank" rel="noopener noreferrer">tutorialzine</a>. images courtesy to <a href="http://unsplash.com/" target="_blank" rel="noopener noreferrer">unsplash</a>.</p>
